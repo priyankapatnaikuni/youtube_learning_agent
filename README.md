@@ -4,8 +4,8 @@ This app extracts transcripts from educational YouTube videos and generates:
 
 - Summary
 - Bullet-point notes
-- Flashcards (coming soon)
-- Quiz (coming soon)
+- Flashcards 
+- Quiz
 
 It uses Gemini AI (by Google) for natural language generation.
 
