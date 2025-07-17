@@ -1,6 +1,6 @@
 # run_pipeline.py
 
-from utils.transcript_fetcher import fetch_transcript
+from utils.youtube_agent import get_transcript_from_youtube
 from agents.summary_agent import generate_summary
 from agents.notes_agent import generate_notes
 
@@ -10,7 +10,7 @@ def main():
 
     print("\n Fetching transcript...")
     try:
-        transcript = fetch_transcript(url)
+        transcript = get_transcript_from_youtube(url)
     except Exception as e:
         print("Error fetching transcript:", e)
         return

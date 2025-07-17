@@ -1,0 +1,24 @@
+{
+  "flashcards": [
+    {
+      "question": "The field of study where a function is created to map input variables (X) to an output variable (Y) by learning from data, without being explicitly programmed.",
+      "answer": "Machine Learning"
+    },
+    {
+      "question": "A type of supervised learning where the algorithm learns from labeled data, meaning both the input features and the corresponding correct output are provided.",
+      "answer": "Supervised Learning"
+    },
+    {
+      "question": "A problem that occurs when a model performs very well on the training data but fails to generalize to new, unseen testing data because it has learned the training data \"too much.\"",
+      "answer": "Overfitting"
+    },
+    {
+      "question": "A type of supervised learning problem where the output variable is a continuous value, such as predicting the price of a house.",
+      "answer": "Regression"
+    },
+    {
+      "question": "A machine learning technique that combines the predictions from an ensemble of multiple models to produce a more accurate result than any individual model.",
+      "answer": "Ensemble Learning"
+    }
+  ]
+}

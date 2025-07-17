@@ -1,0 +1,53 @@
+{
+  "quiz": [
+    {
+      "type": "multiple",
+      "question": "According to the transcript, what is the fundamental goal or 'beauty' of supervised machine learning?",
+      "options": [
+        "To reduce the dimensions of data by transforming large feature sets into smaller ones.",
+        "To create a function f(x) that maps an input variable x to an output variable y.",
+        "To group similar objects together without prior knowledge of their labels.",
+        "To allow a model to learn through a system of rewards and punishments."
+      ],
+      "answer": "To create a function f(x) that maps an input variable x to an output variable y."
+    },
+    {
+      "type": "multiple",
+      "question": "The transcript explains that Random Forest is an ensemble of decision trees. Besides row sampling (bagging), what additional sampling method does it employ?",
+      "options": [
+        "Gradient Sampling",
+        "Time-Series Sampling",
+        "Column Sampling (Feature Bagging)",
+        "Stratified Sampling"
+      ],
+      "answer": "Column Sampling (Feature Bagging)"
+    },
+    {
+      "type": "multiple",
+      "question": "The transcript contrasts Bagging and Boosting. What is the primary problem that Boosting is designed to reduce?",
+      "options": [
+        "High bias",
+        "High variance",
+        "The need for a meta-classifier",
+        "The curse of dimensionality"
+      ],
+      "answer": "High bias"
+    },
+    {
+      "type": "open",
+      "question": "Describe the problem of 'overfitting' as explained in the transcript.",
+      "answer": "Overfitting is when a model performs very well on the training data, learning it too much, but fails to generalize well to new or testing data, resulting in poor performance on unseen examples."
+    },
+    {
+      "type": "multiple",
+      "question": "In the project section about spam detection, what technique was used to convert the textual data from messages into a numerical format that the machine learning model could understand?",
+      "options": [
+        "Principal Component Analysis (PCA)",
+        "A count vectorizer (or tf-idf vectorizer)",
+        "One-Hot Encoding",
+        "A sigmoid function"
+      ],
+      "answer": "A count vectorizer (or tf-idf vectorizer)"
+    }
+  ]
+}
